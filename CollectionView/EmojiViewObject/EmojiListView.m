@@ -220,6 +220,9 @@
 
 
 -(void)otherEmojiAction:(UIButton*)button{
+    if (self.pageMu.count == 0) {
+        return;
+    }
     for (UIButton * itemButton in self.tabbarItems) {
         if (itemButton.tag == button.tag) {
             [itemButton setBackgroundColor:itemsBackGroundColor];
