@@ -18,7 +18,7 @@
     NSMutableArray * emojiInfos = [NSMutableArray array];
     NSDictionary * dic =[NSDictionary dictionaryWithContentsOfFile:plistPath];
     items  = [NSArray arrayWithArray:dic[@"emoticons"]];
-    
+    //解析pilst文件
     for (NSDictionary * dic in items) {
         EmojiInfo * emoji = [[EmojiInfo alloc]init];
         emoji.emojiImgName= dic[@"png"];
