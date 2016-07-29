@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A40C4BE1D476BE2006A8580 /* AppleEmoji.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7A40C4BD1D476BE2006A8580 /* AppleEmoji.bundle */; };
+		7A5A0C1D1D3DE5C400F2344C /* addEmoji@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5A0C1B1D3DE5C400F2344C /* addEmoji@2x.png */; };
+		7A5A0C1E1D3DE5C400F2344C /* addEmoji@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5A0C1C1D3DE5C400F2344C /* addEmoji@3x.png */; };
+		7A5A0C221D3DF6CD00F2344C /* girl_beg@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7A5A0C1F1D3DF6CD00F2344C /* girl_beg@2x.gif */; };
+		7A5A0C231D3DF6CD00F2344C /* grinning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5A0C201D3DF6CD00F2344C /* grinning@2x.png */; };
+		7A5A0C241D3DF6CD00F2344C /* smile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5A0C211D3DF6CD00F2344C /* smile@2x.png */; };
+		7A5A0C2F1D3E18D600F2344C /* EmojiListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A0C2A1D3E18D600F2344C /* EmojiListView.m */; };
+		7A5A0C301D3E18D600F2344C /* EmojiListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A5A0C2B1D3E18D600F2344C /* EmojiListView.xib */; };
+		7A5A0C331D3E18FB00F2344C /* EmojiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A0C321D3E18FB00F2344C /* EmojiModel.m */; };
+		7A5A0C3E1D3E20C900F2344C /* EmojiInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A0C3D1D3E20C900F2344C /* EmojiInfo.m */; };
+		7A6209391D3F476700CEFD00 /* Emotion.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7A6209361D3F476700CEFD00 /* Emotion.bundle */; };
+		7A62093C1D3F5BEC00CEFD00 /* EmojiScrollViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A62093B1D3F5BEC00CEFD00 /* EmojiScrollViewModel.m */; };
+		7A62093F1D3F737D00CEFD00 /* compose_emotion_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A62093D1D3F737D00CEFD00 /* compose_emotion_delete@2x.png */; };
+		7A6209401D3F737D00CEFD00 /* compose_emotion_delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A62093E1D3F737D00CEFD00 /* compose_emotion_delete@3x.png */; };
 		7A6916311D35EF5C009E030F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6916301D35EF5C009E030F /* main.m */; };
 		7A6916341D35EF5C009E030F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6916331D35EF5C009E030F /* AppDelegate.m */; };
 		7A6916371D35EF5D009E030F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6916361D35EF5D009E030F /* ViewController.m */; };
@@ -15,6 +29,15 @@
 		7A69163F1D35EF5D009E030F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A69163D1D35EF5D009E030F /* LaunchScreen.storyboard */; };
 		7A69164A1D35EF5D009E030F /* CollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6916491D35EF5D009E030F /* CollectionViewTests.m */; };
 		7A6916551D35EF5D009E030F /* CollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6916541D35EF5D009E030F /* CollectionViewUITests.m */; };
+		7A9E2DBA1D49E15E00458551 /* sina@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A9E2DB51D49E15E00458551 /* sina@2x.png */; };
+		7A9E2DBB1D49E15E00458551 /* sina@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A9E2DB61D49E15E00458551 /* sina@3x.png */; };
+		7A9E2DBC1D49E15E00458551 /* u2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A9E2DB71D49E15E00458551 /* u2.png */; };
+		7A9E2DBD1D49E15E00458551 /* ud.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A9E2DB81D49E15E00458551 /* ud.png */; };
+		7A9E2DBF1D49E1C100458551 /* emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A9E2DBE1D49E1C100458551 /* emoji.png */; };
+		7A9E2DC31D49E2E100458551 /* lxh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A9E2DC21D49E2E100458551 /* lxh@2x.png */; };
+		7A9E2DC51D49E30D00458551 /* Sina_lxh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7A9E2DC41D49E30D00458551 /* Sina_lxh.bundle */; };
+		7A9E2E141D4A0FEF00458551 /* AdaptiveTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E2E131D4A0FEE00458551 /* AdaptiveTextView.m */; };
+		7ABE8C241D41FC2C00191B6B /* ClassicFace.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7ABE8C231D41FC2C00191B6B /* ClassicFace.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +58,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A40C4BD1D476BE2006A8580 /* AppleEmoji.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AppleEmoji.bundle; sourceTree = "<group>"; };
+		7A5A0C1B1D3DE5C400F2344C /* addEmoji@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addEmoji@2x.png"; sourceTree = "<group>"; };
+		7A5A0C1C1D3DE5C400F2344C /* addEmoji@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addEmoji@3x.png"; sourceTree = "<group>"; };
+		7A5A0C1F1D3DF6CD00F2344C /* girl_beg@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "girl_beg@2x.gif"; sourceTree = "<group>"; };
+		7A5A0C201D3DF6CD00F2344C /* grinning@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grinning@2x.png"; sourceTree = "<group>"; };
+		7A5A0C211D3DF6CD00F2344C /* smile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smile@2x.png"; sourceTree = "<group>"; };
+		7A5A0C291D3E18D600F2344C /* EmojiListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiListView.h; sourceTree = "<group>"; };
+		7A5A0C2A1D3E18D600F2344C /* EmojiListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiListView.m; sourceTree = "<group>"; };
+		7A5A0C2B1D3E18D600F2344C /* EmojiListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmojiListView.xib; sourceTree = "<group>"; };
+		7A5A0C311D3E18FB00F2344C /* EmojiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiModel.h; sourceTree = "<group>"; };
+		7A5A0C321D3E18FB00F2344C /* EmojiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiModel.m; sourceTree = "<group>"; };
+		7A5A0C3C1D3E20C900F2344C /* EmojiInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiInfo.h; sourceTree = "<group>"; };
+		7A5A0C3D1D3E20C900F2344C /* EmojiInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiInfo.m; sourceTree = "<group>"; };
+		7A6209361D3F476700CEFD00 /* Emotion.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emotion.bundle; sourceTree = "<group>"; };
+		7A62093A1D3F5BEC00CEFD00 /* EmojiScrollViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiScrollViewModel.h; sourceTree = "<group>"; };
+		7A62093B1D3F5BEC00CEFD00 /* EmojiScrollViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiScrollViewModel.m; sourceTree = "<group>"; };
+		7A62093D1D3F737D00CEFD00 /* compose_emotion_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_emotion_delete@2x.png"; sourceTree = "<group>"; };
+		7A62093E1D3F737D00CEFD00 /* compose_emotion_delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_emotion_delete@3x.png"; sourceTree = "<group>"; };
 		7A69162C1D35EF5C009E030F /* CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6916301D35EF5C009E030F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7A6916321D35EF5C009E030F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +92,16 @@
 		7A6916501D35EF5D009E030F /* CollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6916541D35EF5D009E030F /* CollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewUITests.m; sourceTree = "<group>"; };
 		7A6916561D35EF5D009E030F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A9E2DB51D49E15E00458551 /* sina@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sina@2x.png"; sourceTree = "<group>"; };
+		7A9E2DB61D49E15E00458551 /* sina@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sina@3x.png"; sourceTree = "<group>"; };
+		7A9E2DB71D49E15E00458551 /* u2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = u2.png; sourceTree = "<group>"; };
+		7A9E2DB81D49E15E00458551 /* ud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ud.png; sourceTree = "<group>"; };
+		7A9E2DBE1D49E1C100458551 /* emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji.png; sourceTree = "<group>"; };
+		7A9E2DC21D49E2E100458551 /* lxh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lxh@2x.png"; sourceTree = "<group>"; };
+		7A9E2DC41D49E30D00458551 /* Sina_lxh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Sina_lxh.bundle; sourceTree = "<group>"; };
+		7A9E2E121D4A0FEE00458551 /* AdaptiveTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdaptiveTextView.h; sourceTree = "<group>"; };
+		7A9E2E131D4A0FEE00458551 /* AdaptiveTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdaptiveTextView.m; sourceTree = "<group>"; };
+		7ABE8C231D41FC2C00191B6B /* ClassicFace.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ClassicFace.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +129,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A5A0C1A1D3DE5C400F2344C /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				7A9E2DBE1D49E1C100458551 /* emoji.png */,
+				7A9E2DB51D49E15E00458551 /* sina@2x.png */,
+				7A9E2DB61D49E15E00458551 /* sina@3x.png */,
+				7A9E2DB71D49E15E00458551 /* u2.png */,
+				7A9E2DB81D49E15E00458551 /* ud.png */,
+				7A9E2DC21D49E2E100458551 /* lxh@2x.png */,
+				7A62093D1D3F737D00CEFD00 /* compose_emotion_delete@2x.png */,
+				7A62093E1D3F737D00CEFD00 /* compose_emotion_delete@3x.png */,
+				7A5A0C1F1D3DF6CD00F2344C /* girl_beg@2x.gif */,
+				7A5A0C201D3DF6CD00F2344C /* grinning@2x.png */,
+				7A5A0C211D3DF6CD00F2344C /* smile@2x.png */,
+				7A5A0C1B1D3DE5C400F2344C /* addEmoji@2x.png */,
+				7A5A0C1C1D3DE5C400F2344C /* addEmoji@3x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		7A5A0C251D3E18D600F2344C /* EmojiViewObject */ = {
+			isa = PBXGroup;
+			children = (
+				7A6209321D3F476700CEFD00 /* EmojiResoure */,
+				7A5A0C291D3E18D600F2344C /* EmojiListView.h */,
+				7A5A0C2A1D3E18D600F2344C /* EmojiListView.m */,
+				7A5A0C2B1D3E18D600F2344C /* EmojiListView.xib */,
+				7A5A0C2C1D3E18D600F2344C /* EmojiModle */,
+			);
+			path = EmojiViewObject;
+			sourceTree = "<group>";
+		};
+		7A5A0C2C1D3E18D600F2344C /* EmojiModle */ = {
+			isa = PBXGroup;
+			children = (
+				7A5A0C3C1D3E20C900F2344C /* EmojiInfo.h */,
+				7A5A0C3D1D3E20C900F2344C /* EmojiInfo.m */,
+				7A5A0C311D3E18FB00F2344C /* EmojiModel.h */,
+				7A5A0C321D3E18FB00F2344C /* EmojiModel.m */,
+				7A62093A1D3F5BEC00CEFD00 /* EmojiScrollViewModel.h */,
+				7A62093B1D3F5BEC00CEFD00 /* EmojiScrollViewModel.m */,
+			);
+			path = EmojiModle;
+			sourceTree = "<group>";
+		};
+		7A6209321D3F476700CEFD00 /* EmojiResoure */ = {
+			isa = PBXGroup;
+			children = (
+				7A9E2DC41D49E30D00458551 /* Sina_lxh.bundle */,
+				7A40C4BD1D476BE2006A8580 /* AppleEmoji.bundle */,
+				7ABE8C231D41FC2C00191B6B /* ClassicFace.bundle */,
+				7A6209361D3F476700CEFD00 /* Emotion.bundle */,
+			);
+			path = EmojiResoure;
+			sourceTree = "<group>";
+		};
 		7A6916231D35EF5C009E030F = {
 			isa = PBXGroup;
 			children = (
+				7A9E2E121D4A0FEE00458551 /* AdaptiveTextView.h */,
+				7A9E2E131D4A0FEE00458551 /* AdaptiveTextView.m */,
+				7A5A0C1A1D3DE5C400F2344C /* Image */,
 				7A69162E1D35EF5C009E030F /* CollectionView */,
 				7A6916481D35EF5D009E030F /* CollectionViewTests */,
 				7A6916531D35EF5D009E030F /* CollectionViewUITests */,
@@ -101,6 +211,7 @@
 		7A69162E1D35EF5C009E030F /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				7A5A0C251D3E18D600F2344C /* EmojiViewObject */,
 				7A6916321D35EF5C009E030F /* AppDelegate.h */,
 				7A6916331D35EF5C009E030F /* AppDelegate.m */,
 				7A6916351D35EF5D009E030F /* ViewController.h */,
@@ -243,9 +354,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A9E2DBC1D49E15E00458551 /* u2.png in Resources */,
+				7A5A0C1E1D3DE5C400F2344C /* addEmoji@3x.png in Resources */,
+				7A9E2DBF1D49E1C100458551 /* emoji.png in Resources */,
 				7A69163F1D35EF5D009E030F /* LaunchScreen.storyboard in Resources */,
 				7A69163C1D35EF5D009E030F /* Assets.xcassets in Resources */,
+				7A5A0C241D3DF6CD00F2344C /* smile@2x.png in Resources */,
+				7A6209391D3F476700CEFD00 /* Emotion.bundle in Resources */,
+				7A9E2DBA1D49E15E00458551 /* sina@2x.png in Resources */,
+				7A9E2DBB1D49E15E00458551 /* sina@3x.png in Resources */,
+				7A5A0C221D3DF6CD00F2344C /* girl_beg@2x.gif in Resources */,
+				7A9E2DC31D49E2E100458551 /* lxh@2x.png in Resources */,
 				7A69163A1D35EF5D009E030F /* Main.storyboard in Resources */,
+				7A5A0C1D1D3DE5C400F2344C /* addEmoji@2x.png in Resources */,
+				7A40C4BE1D476BE2006A8580 /* AppleEmoji.bundle in Resources */,
+				7A62093F1D3F737D00CEFD00 /* compose_emotion_delete@2x.png in Resources */,
+				7A9E2DC51D49E30D00458551 /* Sina_lxh.bundle in Resources */,
+				7A9E2DBD1D49E15E00458551 /* ud.png in Resources */,
+				7A6209401D3F737D00CEFD00 /* compose_emotion_delete@3x.png in Resources */,
+				7ABE8C241D41FC2C00191B6B /* ClassicFace.bundle in Resources */,
+				7A5A0C231D3DF6CD00F2344C /* grinning@2x.png in Resources */,
+				7A5A0C301D3E18D600F2344C /* EmojiListView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +399,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A5A0C3E1D3E20C900F2344C /* EmojiInfo.m in Sources */,
+				7A5A0C2F1D3E18D600F2344C /* EmojiListView.m in Sources */,
 				7A6916371D35EF5D009E030F /* ViewController.m in Sources */,
 				7A6916341D35EF5C009E030F /* AppDelegate.m in Sources */,
+				7A5A0C331D3E18FB00F2344C /* EmojiModel.m in Sources */,
 				7A6916311D35EF5C009E030F /* main.m in Sources */,
+				7A62093C1D3F5BEC00CEFD00 /* EmojiScrollViewModel.m in Sources */,
+				7A9E2E141D4A0FEF00458551 /* AdaptiveTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +630,7 @@
 				7A69165B1D35EF5D009E030F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A69165C1D35EF5D009E030F /* Build configuration list for PBXNativeTarget "CollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +639,7 @@
 				7A69165E1D35EF5D009E030F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A69165F1D35EF5D009E030F /* Build configuration list for PBXNativeTarget "CollectionViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +648,7 @@
 				7A6916611D35EF5D009E030F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
